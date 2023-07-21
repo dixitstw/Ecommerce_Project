@@ -3,4 +3,4 @@
 // export const  USER_API = `${process.env.REACT_APP_BACKEND_URL/user}` 
 // export const  ORDER_API = `${process.env.REACT_APP_BACKEND_URL/order}` 
 
-export const API = process.env.REACT_APP_BACKEND_URL
+export const API = "https://backend-express-production-898f.up.railway.app"
