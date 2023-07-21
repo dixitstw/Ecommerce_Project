@@ -1,0 +1,15 @@
+.carousel-item img {
+  height: 450px;
+}
+
+.btn-toggle::before {
+  width: 1.25em;
+  line-height: 0;
+  content: ">";
+  transition: transform .35s ease;
+  transform-origin: .5em 50%;
+}
+
+.btn-toggle[aria-expanded = "true"]::before {
+  transform: rotate(90deg);
+}
